@@ -1,0 +1,592 @@
+
+
+/* vista desktop */
+@media only screen and (min-width: 1024px)
+{
+body{
+    background-image: url(../paginas/imagenes/Copia\ de\ araña.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+} 
+
+
+.parrafoBio{ 
+    color: white;
+    background-image:radial-gradient(silver,black, mediumslateblue, black);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 60px;
+    align-items: center;
+    margin-left: 240px;
+    font-family: 'Tourney', cursive;
+    font-weight: 1000;
+    flex-wrap: wrap;
+    
+}  
+
+.fechas{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+.f1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.f2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.locacion{
+    font-weight: bold;
+} 
+
+.precio{
+    font-weight: bold;
+} 
+
+    .select{
+    background-image: url(../paginas/imagenes/tribal-tatuaje-tribal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+    
+} 
+
+
+
+.letra{
+    background-color: snow;
+} 
+.cuadro{
+    color: white;
+    background-color: black;
+
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 150px;
+} 
+
+.sobrecuadro{
+    max-width: 500px;
+    
+}
+
+.tapas{
+    display: block;
+
+  font-style: oblique;
+  font-family: 'Tourney', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carajitaVideo{
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+.navegador{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* ESTO HACE QUE TODOS LOS COSOS DE BOOTSTRAP ESTEN CHANFLEADOS */
+li{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+ul{
+    display: flex;
+    padding-left: 650px;
+}
+p{
+    white-space: pre;
+
+}
+.formulario{
+    background-image:url(../paginas/imagenes/Copia\ de\ circulofuego2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 230px;
+    background-position-y: 205px;
+    
+}
+.titulo{
+    display: block;
+    position: absolute;
+    left: 540px;
+    text-decoration: none;
+    font-size: 100px;
+    font-style: oblique;
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+.carajitaLetra{
+    display: block;
+    position: absolute;
+    left: 500px;
+    text-decoration: none;
+    font-size: 100px;
+    font-style: oblique;
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    margin-top: 10px;
+    animation-duration: 4s;
+    animation-name: aparecer;  
+}
+@keyframes aparecer {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+.spotify{
+    display: flex;
+    margin-top: 110px;
+}
+
+.gridAbout{
+    display: grid;
+    grid-template-areas: 
+    "parrafoBio"
+    "parrafoBiografia"
+    "parrafoSonido"
+    "parrafoTemas"
+    ;
+    grid-template-columns: max-content;
+}
+
+.gridReleases{
+    display: grid;
+    grid-template-areas:
+    "gridTapas"
+    "gridvideos";
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+}
+
+/* vista tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+body{
+    background-image: url(../paginas/imagenes/Copia\ de\ araña.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+} 
+
+.parrafoBio{ 
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 60px;
+    align-items: center;
+    margin-left: 240px;
+    font-family: 'Tourney', cursive;
+    font-weight: 1000;
+    flex-wrap: wrap;
+    
+}  
+
+.fechas{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+.f1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.f2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.locacion{
+    font-weight: bold;
+} 
+
+.precio{
+    font-weight: bold;
+} 
+
+    .select{
+    background-image: url(../paginas/imagenes/tribal-tatuaje-tribal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+} 
+
+.letra{
+    background-color: snow;
+} 
+.cuadro{
+    color: white;
+    background-color: black;
+
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 150px;
+} 
+
+.sobrecuadro{
+    max-width: 500px;
+    
+}
+
+.tapas{
+    display: block;
+
+  font-style: oblique;
+  font-family: 'Tourney', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carajitaVideo{
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+.navegador{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+ul{
+    display: flex;
+    padding-left: 650px;
+}
+p{
+    white-space: pre;
+
+}
+.formulario{
+    background-image:url(../paginas/imagenes/Copia\ de\ circulofuego2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 230px;
+    background-position-y: 205px;
+    
+}
+.titulo{
+    display: block;
+    position: absolute;
+    left: 540px;
+    text-decoration: none;
+    font-size: 100px;
+    font-style: oblique;
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    
+
+}
+.carajitaLetra{
+    display: block;
+    position: absolute;
+    left: 500px;
+    text-decoration: none;
+    font-size: 100px;
+    font-style: oblique;
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.spotify{
+    display: flex;
+    margin-top: 110px;
+}
+
+.gridAbout{
+    display: grid;
+    grid-template-areas: 
+    "parrafoBio"
+    "parrafoBiografia"
+    "parrafoSonido"
+    "parrafoTemas"
+    ;
+    grid-template-columns: max-content;
+}
+
+.gridReleases{
+    display: grid;
+    grid-template-areas:
+    "gridTapas"
+    "gridvideos";
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+}
+
+
+
+/* vista mobile */
+@media only screen and (max-width:767px){
+    body{
+        background-image: url(../paginas/imagenes/Copia\ de\ araña.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    } 
+    
+    .parrafoBio{ 
+        color: white;
+        background-color: black;
+        text-align: center;
+        display: inline-flex;
+        flex-direction: column;
+        padding-right: 60px;
+        align-items: center;
+        margin-left: 240px;
+        font-family: 'Tourney', cursive;
+        font-weight: 1000;
+        flex-wrap: wrap;
+        
+    }  
+    
+    .fechas{
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    
+    }
+    .f1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .f2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .locacion{
+        font-weight: bold;
+    } 
+    
+    .precio{
+        font-weight: bold;
+    } 
+    
+        .select{
+        background-image: url(../paginas/imagenes/tribal-tatuaje-tribal.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+    } 
+    
+    .letra{
+        background-color: snow;
+    } 
+    .cuadro{
+        color: white;
+        background-color: black;
+    
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: center;
+        text-align: center;
+    
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 150px;
+    } 
+    
+    .sobrecuadro{
+        max-width: 500px;
+        
+    }
+    
+    .tapas{
+        display: block;
+    
+      font-style: oblique;
+      font-family: 'Tourney', cursive;
+      text-align: center;
+      font-size: 30px;
+    }
+    .videos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carajitaVideo{
+        display: flex;
+        margin-top: 200px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navegador{
+        display: flex;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    li{
+        display: inline-block;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 150px;
+        
+    }
+    ul{
+        display: flex;
+        padding-left: 650px;
+    }
+    p{
+        white-space: pre;
+    
+    }
+    .formulario{
+        background-image:url(../paginas/imagenes/Copia\ de\ circulofuego2.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 230px;
+        background-position-y: 205px;
+        
+    }
+    .titulo{
+        display: block;
+        position: absolute;
+        left: 540px;
+        text-decoration: none;
+        font-size: 100px;
+        font-style: oblique;
+        font-family: 'Tourney', cursive;
+        text-align: center;
+        
+    
+    }
+    .carajitaLetra{
+        display: block;
+        position: absolute;
+        left: 500px;
+        text-decoration: none;
+        font-size: 100px;
+        font-style: oblique;
+        font-family: 'Tourney', cursive;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    .spotify{
+        display: flex;
+        margin-top: 110px;
+    }
+    
+    .gridAbout{
+        display: grid;
+        grid-template-areas: 
+        "parrafoBio"
+        "parrafoBiografia"
+        "parrafoSonido"
+        "parrafoTemas"
+        ;
+        grid-template-columns: max-content;
+    }
+    
+    .gridReleases{
+        display: grid;
+        grid-template-areas:
+        "gridTapas"
+        "gridvideos";
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+    }
+}
+
+
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.diapositiva {
+  width: 50%;
+}
